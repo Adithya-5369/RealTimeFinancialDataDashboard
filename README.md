@@ -31,8 +31,8 @@ You will also need a **free Alpha Vantage API key**. You can get one by signing 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/stock-price-visualization.git
-   cd stock-price-visualization
+   git clone https://github.com/yourusername/RealTimeFinancialDataDashboard.git
+   cd RealTimeFinancialDataDashboard
    ```
 
 2. **Install dependencies**:

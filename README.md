@@ -51,7 +51,7 @@ To run the project:
 1. Clone the repository and install the required dependencies (as mentioned above).
 2. Run the script:
    ```bash
-   python stock_price_analysis.py
+   python main.py
    ```
 
 3. Enter the stock symbol when prompted (e.g., `AAPL` for Apple):
@@ -64,9 +64,9 @@ To run the project:
 ## File Structure
 
 ```
-stock-price-visualization/
+RealTimeFinancialDataDashboard/
 │
-├── stock_price_analysis.py  # Main script for fetching data and visualization
+├── main.py  # Main script for fetching data and visualization
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 ```

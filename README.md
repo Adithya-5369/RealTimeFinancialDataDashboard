@@ -1,4 +1,4 @@
-# Stock Price Visualization and Analysis
+# Real Time Financial Data Dashboard
 
 ## Overview
 

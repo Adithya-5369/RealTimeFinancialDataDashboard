@@ -4,7 +4,7 @@ import time
 import numpy as np
 
 # Fetching Data from Alpha Vantage API (Free Signup Required)
-def fetch_stock_data(symbol, api_key="8DM5FXVIJS8H4YYW"):
+def fetch_stock_data(symbol, api_key="#Paste API Key Here"):
     url = f"https://www.alphavantage.co/query"
     params = {
         "function": "TIME_SERIES_INTRADAY",
@@ -49,9 +49,10 @@ def calculate_statistics(prices):
 # Main Execution
 if __name__ == "__main__":
     symbol = input("Enter stock symbol (e.g., AAPL): ").upper()
-    api_key = "8DM5FXVIJS8H4YYW"  # Alpha Vantage API key
+    api_key = "Paste API Key Here"  # Alpha Vantage API key
     timestamps, prices = fetch_stock_data(symbol, api_key)
     
     if prices:
         calculate_statistics(prices)
         plot_stock_prices(timestamps, prices, symbol)
+
